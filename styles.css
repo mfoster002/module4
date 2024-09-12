@@ -1,0 +1,177 @@
+/*
+COLOR PALETTE
+Light gray    #EDEDE9
+Light Blue    #c5d0d1
+Orange Brown  #a87b61
+Medium Brown: #57331d
+Dark Brown:   #4e4444
+*/
+
+/* Global Styles 
+------------------------------------------*/
+header::before {
+    background: url(../images/annie-spratt-unsplash.jpg) center / cover;
+    content:"";
+    display: block;
+    height: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: #4e4444;
+    line-height: .7;
+    font-size: 4rem;
+    transition: 0.5s;
+    text-shadow: 2px 2px 4px #a87b61;
+}
+
+
+h2 {
+    color: #57331d;
+    font-size: 1.7rem;
+}
+
+h3 {
+    color: #4e4444;
+    font-size: 1.3rem; 
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+html, body {
+    height: cover;
+}
+
+body {
+    background: #edede9;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    margin-left: 5px;
+    line-height: 1.5;
+    color: #4e4444;
+}
+
+/* links */
+a { 
+    color: #4e4444;
+}
+
+a:hover {
+    color: #a87b61;
+    text-decoration: none;
+}
+
+.btn {
+    background: #4e4444;
+    color: #EDEDE9;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: .85rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn:hover {
+    color: bisque;
+}
+
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    font-size: 1.5rem;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 25px;
+}
+
+.content-bg {
+    background: rgb(237 237 233 / 0.9);
+    padding: 30px;
+}
+
+/* Home
+------------------------------------------}*/
+.home {
+    background:url(../images/annie-spratt-unsplash.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    background: rgb(237 237 233 / 0.9);
+    flex: 1 0 auto;
+}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-section h2 {
+    border-bottom: 2px dashed #a87b61;
+}
+
+/* Projects
+------------------------------------------}*/
+.example-project {
+    padding-bottom: 20px;
+}
+
+.project-item{
+    display: flow-root;
+}
+.project-item img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Work
+------------------------------------------}*/
+ .work-item {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        column-gap: 20px;
+    }
+    .education-item {
+        margin: 30px 0;
+    }
+
+    .education-item p {
+        margin: 10px 0;
+    }
+
+/*Footer
+-----------------------------------------*/
+footer {
+   background:#c5d0d1;
+   padding: 0 40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+footer li {
+    margin-right: 40px;
+}
+
+.contact {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    display: inline-block;
+}
